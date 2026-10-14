@@ -1,0 +1,15 @@
+Metric,Baseline,Proposed
+Genuine attempts (n),20,20
+Impostor attempts (n),20,20
+Default accept threshold (score),70.0,60.0
+FRR - Genuine user - normal typing (n=10),0.0%,10.0%
+FRR - Genuine user - faster / slower typing (n=10),0.0%,20.0%
+FRR - overall,0.0%,15.0%
+FAR - Impostor - own natural typing (n=10),100.0%,90.0%
+FAR - Impostor - imitating genuine rhythm (n=10),100.0%,100.0%
+FAR - overall,100.0%,95.0%
+Accuracy at default threshold,50.0%,45.0%
+Balanced accuracy,50.0%,45.0%
+EER,50.0%,55.0%
+Threshold at EER,89.5,75.0
+Mean decision time (ms),0.200,0.280
